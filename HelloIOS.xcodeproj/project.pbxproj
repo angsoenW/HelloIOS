@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5439202BBBB02E00F424B0 /* Screenshot 2024-04-01 at 6.20.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = EC54391F2BBBB02E00F424B0 /* Screenshot 2024-04-01 at 6.20.01 PM.png */; };
+		EC5439222BBBB0BD00F424B0 /* RPReplay_Final1712020958.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = EC5439212BBBB0BD00F424B0 /* RPReplay_Final1712020958.MP4 */; };
 		EC7384642BBB643500849A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7384632BBB643500849A39 /* AppDelegate.swift */; };
 		EC7384662BBB643500849A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7384652BBB643500849A39 /* SceneDelegate.swift */; };
 		EC7384682BBB643500849A39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7384672BBB643500849A39 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC54391F2BBBB02E00F424B0 /* Screenshot 2024-04-01 at 6.20.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-04-01 at 6.20.01 PM.png"; sourceTree = "<group>"; };
+		EC5439212BBBB0BD00F424B0 /* RPReplay_Final1712020958.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = RPReplay_Final1712020958.MP4; sourceTree = "<group>"; };
 		EC7384602BBB643500849A39 /* HelloIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7384632BBB643500849A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC7384652BBB643500849A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +83,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC54391E2BBBAFC900F424B0 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EC54391F2BBBB02E00F424B0 /* Screenshot 2024-04-01 at 6.20.01 PM.png */,
+				EC5439212BBBB0BD00F424B0 /* RPReplay_Final1712020958.MP4 */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		EC7384572BBB643500849A39 = {
 			isa = PBXGroup;
 			children = (
-				EC7384932BBB947700849A39 /* screenshots */,
+				EC54391E2BBBAFC900F424B0 /* screenshots */,
 				EC7384622BBB643500849A39 /* HelloIOS */,
 				EC7384792BBB643600849A39 /* HelloIOSTests */,
 				EC7384832BBB643600849A39 /* HelloIOSUITests */,
@@ -244,10 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC7384972BBB94D600849A39 /* Screenshot 2024-04-01 at 6.20.01 PM.png in Resources */,
 				EC73846D2BBB643600849A39 /* Assets.xcassets in Resources */,
+				EC5439202BBBB02E00F424B0 /* Screenshot 2024-04-01 at 6.20.01 PM.png in Resources */,
 				EC7384702BBB643600849A39 /* Base in Resources */,
 				EC73846B2BBB643500849A39 /* Base in Resources */,
+				EC5439222BBBB0BD00F424B0 /* RPReplay_Final1712020958.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
